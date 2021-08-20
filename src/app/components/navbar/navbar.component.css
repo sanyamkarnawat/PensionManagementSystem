@@ -1,0 +1,20 @@
+.login{
+    flex: 1 1 auto;
+}
+.pensionerList{
+    margin-left: 115px;
+}
+.pensionCalculation
+{
+    margin-left: 65px;
+}
+.pensionDisburse
+{
+    margin-left: 90px;
+}
+span{
+    font-size: 22px;
+}
+.mat-accent{
+    font-size: 18px;
+}

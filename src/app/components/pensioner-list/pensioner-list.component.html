@@ -1,0 +1,29 @@
+<div class="container">
+<h1 style="margin-top: 10px;" class="text-center">Pensioner List</h1>
+<table class="table table-striped mt">
+    <thead>
+        <tr>
+            <th>Aadhaar No</th>
+            <th>Name</th>
+            <th>DOB</th>
+            <th>Pan No</th>
+            <th>Salary</th>
+            <th>Allowence</th>
+            <th>Pension Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor= "let pensioner of pensionerList">
+            <td>{{pensioner.aadhaarNumber}}</td>
+            <td>{{pensioner.name}}</td>
+            <td>{{pensioner.dateOfBirth}}</td>
+            <td>{{pensioner.panNumber}}</td>
+            <td>{{pensioner.salary}}</td>
+            <td>{{pensioner.allowance}}</td>
+            <td>{{pensioner.pensionType}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+

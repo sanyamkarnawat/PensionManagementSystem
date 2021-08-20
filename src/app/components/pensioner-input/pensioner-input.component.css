@@ -1,0 +1,28 @@
+.full-width{
+    width: 100%;
+}
+table {
+    border-collapse: collapse; 
+    border:1px solid #4e81a3;
+    text-align: center;
+    
+}
+tbody{
+    background-color:#dadfe2 ;
+}
+
+thead{
+    background-color:cadetblue;
+} 
+table td{
+    border:1px solid #000000;
+    padding:5px;
+}
+table th{
+   border:2px solid #69899F;
+   padding:5px;
+}
+.error{
+    color: red;
+    font-size: 12px;
+}
